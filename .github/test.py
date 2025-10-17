@@ -14,7 +14,7 @@ def grades_to_GPA(value, times):
 
 
 while validate_num_of_classes() == True: 
-    print ("Lets be realistic in the number of classes you are taking, make sure to just enter the number of classes you are taking, no extra characters to avoid confusion. Try again. ")
+    print ("Lets be realistic in the number of classes you are taking. Also,  make sure to just enter the number of classes you are taking, no extra characters to avoid confusion. Try again. ")
 
 def classes():
     float(input("What is your grade in this class?:"))
