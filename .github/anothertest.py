@@ -25,6 +25,8 @@ def validate_num_of_classes():
 grades = []
 
 
+
+
 for i in range(num_of_classes):
     while True:
         try:
@@ -39,7 +41,7 @@ for i in range(num_of_classes):
         except ValueError:
             print ("Grade must be between 0.0 and 4.0. Make sure to use only numbers, no extra characters or letters. Try again.")
 
-        11
+        
 def GPA():
     sum_of_grades = sum(grades) / len(grades)
     rounded_sum = round(sum_of_grades, 2)
@@ -68,26 +70,28 @@ while True:
         try:
             GPA_goal = float(input(f"What is your GPA goal?: "))
             if 0 <= GPA_goal <= 4:
-               break
+                break
             else:
-                print("Your GPA goal must be between 0.0 and 4.0. Make sure to use only numbers, no extra characters or letters. Try again.")
+                    print("Your GPA goal must be between 0.0 and 4.0. Make sure to use only numbers, no extra characters or letters. Try again.")
+               
 
         except ValueError:
-            print ("Your GPA goal must be between 0.0 and 4.0. Make sure to use only numbers, no extra characters or letters. Try again.")
+            if 0 <= GPA_goal <= 4:
+                print ("Your GPA goal must be between 0.0 and 4.0. Make sure to use only numbers, no extra characters or letters. Try again.")
+
 
 if GPA_goal == GPA:
     print(f"Congratulations, you are already at your GPA goal ({GPA()})!")
 
-
-goal_calculated = min(grades) 
+ 
+goal_calculated = min(grades)
 
 
 
 def GPA_goal_calculated():
-
   #  grades.replace(min(grades), 4.0)
     old_sum = min(grades)
-    new_sum = 4
+    new_sum = 4.0
     try:
         index = grades.index(old_sum)
         grades[index] = new_sum
@@ -99,7 +103,24 @@ def GPA_goal_calculated():
     return rounded_sum
 
 
+print(f" If you changed your lowest grade ({goal_calculated})to a 4.0, your new GPA would be {GPA_goal_calculated}.")
 
-print(f" If you changed your lowest grade ({goal_calculated})to a 4.0, your new GPA would be {GPA_goal_calculated()}")
+print(f"The following lines will tell you what your GPA would become if a grade in a class was raised to a 4.0, (only one classes grade is raised to a 4.0 each line).")
+
+
+
+for i in range(num_of_classes):
+    while True:
+        try:
+            if GPA_goal:
+               grades.append(i)
+               print (f"If your grade in class {i + 1} ({grades[i]}) was raised to a 4.0, your new GPA would be:{GPA_goal_calculated}.")
+               break
+
+        except ValueError:
+            print ("Try again.")
+
+
+
 
 
