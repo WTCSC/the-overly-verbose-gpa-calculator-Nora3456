@@ -15,7 +15,7 @@ Below is a detailed step-by-step walkthrough of how to use the GPA calculator.
 ### First, how to run the program:
 
 1. Save/copy the code. 
-2. Create a new file (name it something simple that represents the code like calculator.py).
+2. Create a new file (name it something simple that represents the code like GPA_calculator.py).
 3. Open your program/terminal and open the file you created.
 4. Press the play icon (▶️) to run the script in the terminal!
 <br/>
