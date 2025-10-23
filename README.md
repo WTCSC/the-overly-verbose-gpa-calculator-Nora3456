@@ -4,8 +4,6 @@
 
 This code runs a GPA calculator. The program takes your grades in your classes, and inputs them into a calculator that displays your GPA! It has fun and unique next lines, that give you even more information about your GPA! **Have fun!**
 
-🖩🫩🖩😐🖩🙄🖩😴🖩🫩🖩😐🖩🙄🖩😴🖩🫩🖩😐🖩🙄🖩😴🖩🫩🖩😐🖩🙄🖩😴🖩🫩🖩😐🖩🙄🖩😴
-
 💯🖩🧠🤓📖🎯🤔🔍💯🖩🧠🤓📖🎯🤔🔍
 💯🖩🧠🤓📖🎯🤔🔍💯🖩🧠🤓
 
