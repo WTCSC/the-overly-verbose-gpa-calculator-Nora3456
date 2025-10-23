@@ -26,6 +26,8 @@ Below is a detailed step-by-step walkthrough of how to use the GPA calculator.
 - _**‼️ NOTE:‼️** (for all inputs) If your input to a question is invalid, a message will pop up saying your message was invalid. then the question will repeat itself, give a valid answer._
 2. 🤔 | After doing step 1, the GPA calculator will ask you what your grade is in each one of those classes. **Again, only type numbers.** After typing your answer, press enter.
 3. 👍👎 | Given your classes and grades, the calculator will display your GPA! It will also follow up with a message saying whether or not your GPA is good. It uses the following grade - level chart to calculate how good/bad your GPA is:
+![Photo of color coded level of GPA.](image.png)
+
 4. 🔍 | After displaying your GPA, the calculator will then ask if you want to focus on your 1st, or 2nd semester GPA. The code does this by splitting your number of classes in half, and then calcualting your GPA on only those classes. If your GPA in your 2nd semester was greater than your overall GPA (all classes), then you will get a congratulative message!
 5. 🎯 | Your GPA calculator will ask you what your GOAL GPA is. Input your goal GPA, **Remember to only input numbers**, after inputting your goal GPA, press enter. 
 6. 🥳 | If your GOAL GPA is already met, you will get a congratulation message! 
